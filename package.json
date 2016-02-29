@@ -1,0 +1,14 @@
+{
+  "name": "mixpanel-find-users",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Daniel Ilkovich",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "crypto": "0.0.3",
+    "lodash": "^3.9.3",
+    "superagent": "^1.7.2"
+  }
+}

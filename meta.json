@@ -1,0 +1,41 @@
+{
+    "title": "Mixpanel Find Users" 
+    , "inputs": [{
+        "id"    : "api_key",
+        "title" : "Mixpanel API Key"
+    }, {
+        "id"    : "api_secret",
+        "title" : "Mixpanel API Secret"
+    }, {
+        "id"    : "selector",
+        "title" : "Selector"
+    }, {
+        "id"    : "behaviors",
+        "title" : "Behaviors"
+    }]
+    , "outputs"   : [{
+        "id"    : "$distinct_id",
+        "title" : "Id"
+    }, {
+         "id"    : "$browser",
+         "title" : "Browser"
+    }, {
+         "id"    : "$country_code",
+         "title" : "Country Code"
+    }, {
+         "id"    : "$created",
+         "title" : "Created"
+    }, {
+         "id"    : "$email",
+         "title" : "Email"
+    }, {
+         "id"    : "name",
+         "title" : "Name"
+    }, {
+         "id"    : "os",
+         "title" : "OS"
+    }, {
+        "id"    : "$last_seen",
+        "title" : "Last Seen"
+    }]
+}
